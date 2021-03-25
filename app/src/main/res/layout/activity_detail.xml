@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageViewFoto2"
+        android:layout_width="350dp"
+        android:layout_height="425dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="name"
+        android:textColor="#BA0404"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFoto2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFoto2" />
+
+    <TextView
+        android:id="@+id/textViewRelationship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Relationship:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewname2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewname2" />
+
+    <TextView
+        android:id="@+id/textViewRelationship2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewRelationship"
+        app:layout_constraintTop_toTopOf="@+id/textViewRelationship" />
+
+    <TextView
+        android:id="@+id/textViewinterestedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Interested in:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewRelationship"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRelationship" />
+
+    <TextView
+        android:id="@+id/textViewinterestedIn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewinterestedIn"
+        app:layout_constraintTop_toTopOf="@+id/textViewinterestedIn" />
+
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Country:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewinterestedIn"
+        app:layout_constraintTop_toBottomOf="@+id/textViewinterestedIn" />
+
+    <TextView
+        android:id="@+id/textViewCountry2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewCountry"
+        app:layout_constraintTop_toTopOf="@+id/textViewCountry" />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gender:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewCountry"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCountry" />
+
+    <TextView
+        android:id="@+id/textViewGender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewGender"
+        app:layout_constraintTop_toTopOf="@+id/textViewGender" />
+
+    <TextView
+        android:id="@+id/textViewPlaceOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Place Of Birth:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewGender"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGender" />
+
+    <TextView
+        android:id="@+id/textViewplaceOfBirth2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlaceOfBirth"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlaceOfBirth" />
+
+    <TextView
+        android:id="@+id/textViewEthnicity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ethnicity:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileVisits"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileVisits" />
+
+    <TextView
+        android:id="@+id/textViewEthnicity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewEthnicity"
+        app:layout_constraintTop_toTopOf="@+id/textViewEthnicity" />
+
+    <TextView
+        android:id="@+id/textViewHairColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="Hair Color:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFoto2"
+        app:layout_constraintTop_toTopOf="@+id/textViewRelationship" />
+
+    <TextView
+        android:id="@+id/textViewHairColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewHairColor"
+        app:layout_constraintTop_toTopOf="@+id/textViewHairColor" />
+
+    <TextView
+        android:id="@+id/textViewEyeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Eye Color:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewHairColor"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHairColor" />
+
+    <TextView
+        android:id="@+id/textViewEyeColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewEyeColor"
+        app:layout_constraintTop_toTopOf="@+id/textViewEyeColor" />
+
+    <TextView
+        android:id="@+id/textViewPrepucio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Prepucio"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewEyeColor"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEyeColor" />
+
+    <TextView
+        android:id="@+id/textViewPrepucio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewPrepucio"
+        app:layout_constraintTop_toTopOf="@+id/textViewPrepucio" />
+
+    <TextView
+        android:id="@+id/textViewHobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hobby:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewPrepucio"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrepucio" />
+
+    <TextView
+        android:id="@+id/textViewHobby2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewHobby"
+        app:layout_constraintTop_toTopOf="@+id/textViewHobby" />
+
+    <TextView
+        android:id="@+id/textViewProfileVisits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Visits:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewHobby"
+        app:layout_constraintTop_toTopOf="@+id/textViewHeight" />
+
+    <TextView
+        android:id="@+id/textViewProfileVisits2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewProfileVisits"
+        app:layout_constraintTop_toTopOf="@+id/textViewProfileVisits" />
+
+    <TextView
+        android:id="@+id/textViewHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Height"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlaceOfBirth"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlaceOfBirth" />
+
+    <TextView
+        android:id="@+id/textViewHeight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewHeight"
+        app:layout_constraintTop_toTopOf="@+id/textViewHeight" />
+
+    <TextView
+        android:id="@+id/textViewWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Weight:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textViewHeight"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeight" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacialhair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Facial Hair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewWeight"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWeight" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTattoos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Tattoos"
+        app:layout_constraintEnd_toStartOf="@+id/checkBoxPiercing"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxFacialhair"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxFacialhair" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPiercing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Piercing"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFoto2"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxTattoos" />
+
+    <TextView
+        android:id="@+id/textViewWeight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewWeight"
+        app:layout_constraintTop_toTopOf="@+id/textViewWeight" />
+</androidx.constraintlayout.widget.ConstraintLayout>
